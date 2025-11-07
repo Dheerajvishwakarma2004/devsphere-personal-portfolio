@@ -1,5 +1,5 @@
 "use client"
-import { motion , easeInOut} from "framer-motion"
+import { motion ,easeInOut} from "framer-motion"
 import { ArrowRight, Menu, X } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { ParticlesBackground } from "@/components/particles-background"
@@ -55,7 +55,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="text-2xl font-bold bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent"
             >
-              DevSphere
+              Dheeraj
             </motion.div>
 
             {/* Desktop Navigation */}
@@ -129,7 +129,9 @@ export default function Home() {
           >
             {/* Greeting */}
             <motion.div variants={itemVariants} className="mb-4">
-              <span className="text-secondary text-sm font-medium tracking-widest uppercase">Welcome to DevSphere</span>
+              <span className="text-secondary text-sm font-medium tracking-widest uppercase">
+                Welcome to my portfolio
+              </span>
             </motion.div>
 
             {/* Main Heading */}
@@ -137,7 +139,7 @@ export default function Home() {
               variants={itemVariants}
               className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-secondary to-accent bg-clip-text text-transparent"
             >
-              The Living Portfolio
+              Dheeraj Vishwakarma
             </motion.h1>
 
             {/* Subheading */}
@@ -145,8 +147,7 @@ export default function Home() {
               variants={itemVariants}
               className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
             >
-              Discover innovative projects, cutting-edge skills, and a developer journey crafted with passion.
-              Interactive, animated, and designed for the future.
+              Passionate Developer | Student Innovator | Building for Hackathons & Personal Projects
             </motion.p>
 
             {/* CTA Buttons */}
@@ -160,7 +161,7 @@ export default function Home() {
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-3 bg-gradient-to-r from-secondary to-accent rounded-lg font-semibold text-foreground hover:shadow-lg hover:shadow-secondary/50 transition-all flex items-center gap-2 group"
               >
-                Explore Projects
+                Explore My Work
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </motion.a>
 
@@ -200,7 +201,10 @@ export default function Home() {
         {/* Footer */}
         <footer className="border-t border-border py-8 px-4 sm:px-6 lg:px-8 bg-muted/20">
           <div className="max-w-7xl mx-auto text-center text-sm text-muted-foreground">
-            <p>© 2025 DevSphere. Crafted with passion using Next.js, Framer Motion, and Tailwind CSS.</p>
+            <p>
+              © 2025 Dheeraj Vishwakarma. Building innovative solutions with Next.js, React, and cutting-edge web
+              technologies.
+            </p>
           </div>
         </footer>
       </div>
