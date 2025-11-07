@@ -2,7 +2,6 @@
 import { motion ,easeInOut} from "framer-motion"
 import { ArrowRight, Menu, X } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
-import { ParticlesBackground } from "@/components/particles-background"
 import { ProjectsSection } from "@/components/projects-section"
 import { SkillsSection } from "@/components/skills-section"
 import { AboutSection } from "@/components/about-section"
@@ -43,8 +42,6 @@ export default function Home() {
 
   return (
     <>
-      <ParticlesBackground />
-
       <div className="relative z-10 min-h-screen w-full">
         {/* Navigation */}
         <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-background/80 border-b border-border">
