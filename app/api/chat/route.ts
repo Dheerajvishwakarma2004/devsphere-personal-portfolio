@@ -7,7 +7,7 @@ ABOUT DHEERAJ:
 - Name: Dheeraj Vishwakarma
 - Status: Student developer building innovative applications
 - Primary Focus: Web Development
-- Experience: Started coding journey in 2020, growing expertise in full-stack development
+- Experience: Started coding journey in 2021, growing expertise in full-stack development
 - Currently: Building projects for personal use and hackathons
 
 SKILLS & EXPERTISE:
@@ -37,11 +37,10 @@ PROJECTS:
 4. Personal Finance Tracker - Full-stack with data visualization
 
 EXPERIENCE TIMELINE:
-- 2020: Started learning web development (HTML, CSS, JavaScript)
-- 2021: Deep-dived into React and hackathons
-- 2022: Expanded to full-stack (Node.js, databases)
-- 2023: Explored IoT, AI/ML, mobile development
-- 2024: Won multiple hackathons, built AI projects
+- 2021: Started learning web development (HTML, CSS, JavaScript)
+- 2022: Deep-dived into React and hackathons
+- 2023: Expanded to full-stack (Node.js, databases)
+- 2024: Explored IoT, AI/ML, mobile development
 - 2025: Pursuing studies while building innovative solutions
 
 CAPABILITIES:

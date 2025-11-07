@@ -17,9 +17,9 @@ const aiResponses: Record<string, string> = {
   skills:
     "I specialize in Web Development with React, Next.js, and TypeScript. I also work with Node.js, Python, IoT/Arduino, React Native, and have explored AI/ML. What area interests you?",
   projects:
-    "I've built several projects including a Smart IoT Dashboard, AI-Powered Content Generator (hackathon), Mobile Task Manager, and Personal Finance Tracker. Would you like to know more about any?",
+    "I've built several projects including a ipynb to pdf, StackQuest, StegoScan, MovieDB - movie recommendation system, AI Code Reviewer, smartBreeze - automatic AC controller. Would you like to know more about any?",
   experience:
-    "I started coding in 2020 and have been growing since then. I've participated in multiple hackathons, explored various domains from web to IoT and AI/ML, and currently focus on building innovative solutions while pursuing my studies.",
+    "I started coding in 2021 and have been growing since then. I've participated in multiple hackathons, explored various domains from web to IoT and AI/ML, and currently focus on building innovative solutions while pursuing my studies.",
   contact:
     "You can reach me via the contact form on this portfolio, or through my social media links. I typically respond within 24 hours!",
   hackathon:
