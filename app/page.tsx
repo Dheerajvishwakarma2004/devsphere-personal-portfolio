@@ -1,5 +1,5 @@
 "use client"
-import { motion } from "framer-motion"
+import { motion , easeInOut} from "framer-motion"
 import { ArrowRight, Menu, X } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { ParticlesBackground } from "@/components/particles-background"
@@ -34,7 +34,7 @@ const itemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: { duration: 0.8, ease: easeInOut },
   },
 }
 
