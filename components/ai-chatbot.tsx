@@ -12,17 +12,20 @@ interface Message {
 }
 
 const aiResponses: Record<string, string> = {
-  hello: "Hey there! 👋 Welcome to DevSphere. How can I help you today?",
+  hello:
+    "Hey there! 👋 Welcome to my portfolio. I'm Dheeraj, a passionate developer. Ask me about my projects, skills, or whether I can help with specific tasks!",
   skills:
-    "I'm proficient in React, Next.js, TypeScript, Node.js, and Tailwind CSS. I also have experience with database design and DevOps.",
+    "I specialize in Web Development with React, Next.js, and TypeScript. I also work with Node.js, Python, IoT/Arduino, React Native, and have explored AI/ML. What area interests you?",
   projects:
-    "Check out my projects section! I've built AI chatbots, e-commerce platforms, SaaS applications, and data visualization dashboards.",
+    "I've built several projects including a Smart IoT Dashboard, AI-Powered Content Generator (hackathon), Mobile Task Manager, and Personal Finance Tracker. Would you like to know more about any?",
   experience:
-    "I've been developing for about 5 years, specializing in full-stack web development with modern technologies.",
+    "I started coding in 2020 and have been growing since then. I've participated in multiple hackathons, explored various domains from web to IoT and AI/ML, and currently focus on building innovative solutions while pursuing my studies.",
   contact:
-    "You can reach me via the contact form, or through my social media links. I typically respond within 24 hours!",
-  hire: "I'm always open to interesting opportunities! Feel free to reach out via the contact form with details about your project.",
-  default: "That's a great question! Feel free to explore my portfolio or contact me for more information.",
+    "You can reach me via the contact form on this portfolio, or through my social media links. I typically respond within 24 hours!",
+  hackathon:
+    "Yes! I actively participate in hackathons and have won several. I love the fast-paced environment and opportunity to build something innovative in short timeframes.",
+  default:
+    "That's a great question! I'd be happy to help. Feel free to explore more sections of my portfolio or contact me directly for specific opportunities.",
 }
 
 export function AIChatbot() {
@@ -30,7 +33,7 @@ export function AIChatbot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      text: "Hi! 👋 I'm the DevSphere AI assistant. Ask me about projects, skills, or anything else!",
+      text: "Hi! 👋 I'm DevSphere, the AI assistant. Ask me about projects, skills, or anything else!",
       sender: "bot",
       timestamp: new Date(),
     },
@@ -72,17 +75,41 @@ export function AIChatbot() {
     setInput("")
     setIsLoading(true)
 
-    // Simulate API delay
-    setTimeout(() => {
+    try {
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          messages: [...messages, userMessage],
+        }),
+      })
+
+      if (!response.ok) {
+        throw new Error("Failed to get response")
+      }
+
+      const data = await response.json()
+
       const botResponse: Message = {
+        id: (Date.now() + 1).toString(),
+        text: data.response,
+        sender: "bot",
+        timestamp: new Date(),
+      }
+      setMessages((prev) => [...prev, botResponse])
+    } catch (error) {
+      console.error("[v0] Chat error:", error)
+      // Fallback to static response if API fails
+      const fallbackResponse: Message = {
         id: (Date.now() + 1).toString(),
         text: getAIResponse(input),
         sender: "bot",
         timestamp: new Date(),
       }
-      setMessages((prev) => [...prev, botResponse])
+      setMessages((prev) => [...prev, fallbackResponse])
+    } finally {
       setIsLoading(false)
-    }, 500)
+    }
   }
 
   return (
