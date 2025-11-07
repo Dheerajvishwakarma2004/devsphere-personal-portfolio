@@ -55,7 +55,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="text-2xl font-bold bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent"
             >
-              Dheeraj
+              DevSphere
             </motion.div>
 
             {/* Desktop Navigation */}

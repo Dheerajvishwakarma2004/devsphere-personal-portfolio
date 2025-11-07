@@ -4,34 +4,39 @@ import { Download } from "lucide-react"
 
 const timelineEvents = [
   {
-    year: "2019",
-    title: "Started My Journey",
-    description: "Began learning web development with HTML, CSS, and JavaScript. Built my first projects.",
-  },
-  {
     year: "2020",
-    title: "First Full-Stack Project",
-    description: "Created a complete e-commerce platform with React and Node.js, deployed to production.",
+    title: "Started Coding Journey",
+    description:
+      "Began learning web development with HTML, CSS, and JavaScript. Built first personal projects and explored the fundamentals.",
   },
   {
     year: "2021",
-    title: "Specialization in React",
-    description: "Deep-dived into React ecosystem, mastered state management, and contributed to open-source.",
+    title: "Discovered React",
+    description:
+      "Deep-dived into React ecosystem, built interactive frontends, and started participating in college hackathons.",
   },
   {
     year: "2022",
-    title: "Senior Developer",
-    description: "Led a team of developers, architected scalable systems, and mentored junior developers.",
+    title: "Expanded to Full-Stack",
+    description:
+      "Learned backend development with Node.js and databases. Started building complete applications from scratch.",
   },
   {
     year: "2023",
-    title: "Full-Stack Mastery",
-    description: "Became proficient in Next.js, TypeScript, and modern DevOps practices.",
+    title: "Explored IoT & AI/ML",
+    description:
+      "Ventured into IoT projects with Arduino, explored machine learning with Python, and mobile app development with React Native.",
   },
   {
     year: "2024",
+    title: "Hackathon Success",
+    description: "Won multiple hackathons, built AI-powered projects, and continued advancing full-stack capabilities.",
+  },
+  {
+    year: "2025",
     title: "Building the Future",
-    description: "Exploring AI integration, developing innovative solutions, and creating DevSphere.",
+    description:
+      "Currently pursuing studies while building innovative solutions. Focused on creating impactful projects and staying at the forefront of web technologies.",
   },
 ]
 
@@ -70,7 +75,7 @@ export function AboutSection() {
             My Journey
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            From curious learner to experienced developer, here's my professional evolution.
+            From curious learner to passionate developer, here's my journey of continuous learning and innovation.
           </p>
         </motion.div>
 
@@ -84,14 +89,20 @@ export function AboutSection() {
         >
           <h3 className="text-2xl font-bold mb-4">About Me</h3>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            I'm a passionate full-stack developer with a keen eye for creating beautiful, functional digital
-            experiences. My journey started in 2019 with a curiosity about how websites work, and it has evolved into a
-            career of building scalable, innovative solutions that solve real-world problems.
+            I'm Dheeraj Vishwakarma, a passionate developer currently pursuing my studies while building innovative
+            applications. My journey into tech started with curiosity about how websites work, and has evolved into a
+            passion for creating elegant solutions to real-world problems.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-4">
+            My primary focus is web development with expertise in React and Next.js. However, I'm not one to stay in a
+            single domain—I've explored IoT systems with Arduino, experimented with AI/ML using Python, and developed
+            mobile apps with React Native. This diverse background allows me to approach problems from multiple
+            perspectives and bring innovative ideas to life.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            I specialize in modern web technologies including React, Next.js, and TypeScript. I'm committed to writing
-            clean, maintainable code and staying at the forefront of web development trends. When I'm not coding, you'll
-            find me exploring new technologies, exploring different domain not limiting myself only on web development.
+            When I'm not coding, you'll find me participating in hackathons, contributing to personal projects, or
+            learning the latest technologies. I believe in continuous growth and love collaborating with others to build
+            something meaningful.
           </p>
         </motion.div>
 

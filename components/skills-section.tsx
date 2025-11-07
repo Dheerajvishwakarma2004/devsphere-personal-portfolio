@@ -4,14 +4,16 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 
 const skillsData = [
   { name: "React", proficiency: 95 },
-  { name: "TypeScript", proficiency: 90 },
   { name: "Next.js", proficiency: 92 },
-  { name: "Tailwind", proficiency: 88 },
+  { name: "TypeScript", proficiency: 88 },
+  { name: "Tailwind CSS", proficiency: 90 },
   { name: "Node.js", proficiency: 85 },
-  { name: "UI/UX Design", proficiency: 80 },
+  { name: "Python (AI/ML)", proficiency: 80 },
+  { name: "React Native", proficiency: 78 },
+  { name: "IoT & Arduino", proficiency: 75 },
 ]
 
-const colors = ["#00d9ff", "#ff006e", "#a78bfa", "#06b6d4", "#f472b6", "#7c3aed"]
+const colors = ["#00d9ff", "#a78bfa", "#f472b6", "#06b6d4", "#7c3aed", "#fbbf24", "#f87171", "#34d399"]
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -48,7 +50,8 @@ export function SkillsSection() {
             Technical Skills
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A comprehensive overview of my technical expertise and proficiency levels.
+            My expertise spans web development, mobile apps, IoT systems, and AI/ML integration with proficiency in
+            modern technologies.
           </p>
         </motion.div>
 

@@ -5,36 +5,40 @@ import { ExternalLink, Github } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "AI Chat Assistant",
-    description: "A real-time chat application powered by GPT-4 with streaming responses and conversation history.",
-    tags: ["Next.js", "TypeScript", "OpenAI", "Tailwind"],
+    title: "Smart IOT Dashboard",
+    description:
+      "Real-time IoT monitoring dashboard for tracking sensor data from multiple devices using WebSocket connections and interactive visualizations.",
+    tags: ["React", "Node.js", "WebSocket", "MongoDB"],
     github: "https://github.com",
     live: "https://example.com",
     gradient: "from-cyan-500 to-blue-500",
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    description: "Full-stack marketplace with payment integration, real-time inventory, and admin dashboard.",
-    tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    github: "https://github.com",
-    live: "https://example.com",
-    gradient: "from-pink-500 to-rose-500",
-  },
-  {
-    id: 3,
-    title: "Task Management SaaS",
-    description: "Collaborative task management tool with real-time updates, team workspaces, and analytics.",
-    tags: ["Next.js", "Supabase", "Real-time", "React"],
+    title: "AI-Powered Content Generator",
+    description:
+      "Hackathon project: An intelligent content generation tool powered by machine learning APIs with a sleek React frontend.",
+    tags: ["Next.js", "OpenAI", "TypeScript", "Tailwind"],
     github: "https://github.com",
     live: "https://example.com",
     gradient: "from-purple-500 to-indigo-500",
   },
   {
+    id: 3,
+    title: "Mobile Task Manager",
+    description:
+      "Cross-platform task management app built with React Native, featuring real-time sync and offline capabilities.",
+    tags: ["React Native", "Firebase", "Redux", "Expo"],
+    github: "https://github.com",
+    live: "https://example.com",
+    gradient: "from-pink-500 to-rose-500",
+  },
+  {
     id: 4,
-    title: "Data Visualization Dashboard",
-    description: "Interactive analytics dashboard with custom charts, filters, and real-time data streaming.",
-    tags: ["React", "D3.js", "WebSocket", "TypeScript"],
+    title: "Personal Finance Tracker",
+    description:
+      "Web application for tracking expenses and investments with data visualization, budgeting tools, and predictive analytics.",
+    tags: ["React", "Chart.js", "Express", "PostgreSQL"],
     github: "https://github.com",
     live: "https://example.com",
     gradient: "from-yellow-500 to-orange-500",
@@ -80,7 +84,8 @@ export function ProjectsSection() {
             Featured Projects
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Explore a selection of my most innovative projects, built with modern technologies and best practices.
+            Explore my portfolio of projects spanning web development, IoT, AI/ML, and mobile applications built through
+            hackathons and personal experimentation.
           </p>
         </motion.div>
 

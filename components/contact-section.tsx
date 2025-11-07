@@ -7,7 +7,12 @@ import { Mail, Linkedin, Github, Twitter } from "lucide-react"
 
 const socialLinks = [
   { icon: Github, label: "GitHub", href: "https://github.com/Dheerajvishwakarma2004", color: "hover:text-white" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/dheeraj-vishwakarma-907264288/", color: "hover:text-blue-500" },
+  {
+    icon: Linkedin,
+    label: "LinkedIn",
+    href: "https://linkedin.com/in/dheeraj-vishwakarma-907264288",
+    color: "hover:text-blue-500",
+  },
   { icon: Mail, label: "Email", href: "mailto:dheerajvishwakarma426@gmail.com", color: "hover:text-red-500" },
 ]
 
@@ -72,8 +77,8 @@ export function ContactSection() {
             Get in Touch
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Have a project in mind or just want to chat? Feel free to reach out. I'm always interested in hearing about
-            new opportunities.
+            Have a project idea, hackathon collaboration, or just want to discuss web development? I'd love to hear from
+            you! Feel free to reach out.
           </p>
         </motion.div>
 
