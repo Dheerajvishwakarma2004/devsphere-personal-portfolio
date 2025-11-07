@@ -109,14 +109,6 @@ Include the following for a clean submission:
 
 PRs are welcome. For bigger changes, open an issue first to discuss the design.
 
-## License
 
-This repository does not contain a license file. Add one (e.g., MIT) if you want to permit public reuse.
-
-## Contact
-
-Dheeraj Vishwakarma — link to contact form on the site or add your email.
-
----
 
 
