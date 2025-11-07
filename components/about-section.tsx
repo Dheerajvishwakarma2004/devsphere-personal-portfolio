@@ -4,33 +4,28 @@ import { Download } from "lucide-react"
 
 const timelineEvents = [
   {
-    year: "2020",
+    year: "2021",
     title: "Started Coding Journey",
     description:
       "Began learning web development with HTML, CSS, and JavaScript. Built first personal projects and explored the fundamentals.",
   },
   {
-    year: "2021",
+    year: "2022",
     title: "Discovered React",
     description:
       "Deep-dived into React ecosystem, built interactive frontends, and started participating in college hackathons.",
   },
   {
-    year: "2022",
+    year: "2023",
     title: "Expanded to Full-Stack",
     description:
       "Learned backend development with Node.js and databases. Started building complete applications from scratch.",
   },
   {
-    year: "2023",
+    year: "2024",
     title: "Explored IoT & AI/ML",
     description:
       "Ventured into IoT projects with Arduino, explored machine learning with Python, and mobile app development with React Native.",
-  },
-  {
-    year: "2024",
-    title: "Hackathon Success",
-    description: "Won multiple hackathons, built AI-powered projects, and continued advancing full-stack capabilities.",
   },
   {
     year: "2025",
