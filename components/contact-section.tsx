@@ -6,10 +6,9 @@ import { motion } from "framer-motion"
 import { Mail, Linkedin, Github, Twitter } from "lucide-react"
 
 const socialLinks = [
-  { icon: Github, label: "GitHub", href: "https://github.com", color: "hover:text-white" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", color: "hover:text-blue-500" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com", color: "hover:text-blue-400" },
-  { icon: Mail, label: "Email", href: "mailto:hello@example.com", color: "hover:text-red-500" },
+  { icon: Github, label: "GitHub", href: "https://github.com/Dheerajvishwakarma2004", color: "hover:text-white" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/dheeraj-vishwakarma-907264288/", color: "hover:text-blue-500" },
+  { icon: Mail, label: "Email", href: "mailto:dheerajvishwakarma426@gmail.com", color: "hover:text-red-500" },
 ]
 
 const containerVariants = {

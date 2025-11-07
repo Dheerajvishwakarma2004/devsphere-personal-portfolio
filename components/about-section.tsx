@@ -91,7 +91,7 @@ export function AboutSection() {
           <p className="text-muted-foreground leading-relaxed">
             I specialize in modern web technologies including React, Next.js, and TypeScript. I'm committed to writing
             clean, maintainable code and staying at the forefront of web development trends. When I'm not coding, you'll
-            find me exploring new technologies, contributing to open-source projects, or mentoring aspiring developers.
+            find me exploring new technologies, exploring different domain not limiting myself only on web development.
           </p>
         </motion.div>
 
